@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+}
+/* CSS for Navbar & Top Section */
+.top-section{
+    background-image: url(./resources/background/1stSection.png); 
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:700px;
+}
+.nav-search-icon{
+    width:25px;
+    
+}
+.top-left-part{
+    margin-bottom: 40px;
+}
+.nav-item{
+    padding-left: 20px;
+    font-weight: 700;
+}
+.top-section-heading{
+    font-size:65px;
+    font-weight: 700;
+}
+.top-image{
+    width:auto;
+    height:600px;
+    border-radius: 35px;
+}
+.text-highlight{
+    color: rgb(119, 118, 118)
+}
+.pera{
+    color:rgb(119, 118, 118);
+    font-size:20px;
+    margin-top:35px;
+    margin-bottom:35px;
+}
+.see-more-btn{
+    text-decoration: none !important;
+    background-image:linear-gradient( 45deg,#ffc371, #ff5f6d);
+    padding:10px 20px;
+    border-radius: 8px;
+    color:white;
+    font-weight: 500;
+}
+.see-more-btn:hover{
+    text-decoration: none !important;
+    background-image:linear-gradient( 45deg,#ffc371, #ff5f6d);
+    padding:10px 20px;
+    border-radius: 8px;
+    color:white;
+    font-weight: 500px;
+}
+
+/* CSS for 1st Section */
+.first-section{
+    background-image: url(./resources/background/2ndSection.png); 
+    height: 850px;
+    background-position: center;
+    background-size:cover;
+    float:left;
+}
