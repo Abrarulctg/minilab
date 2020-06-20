@@ -1,18 +1,27 @@
 body{
     margin:0;
     padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-bottom:100px;
 }
 /* CSS for Navbar & Top Section */
 .top-section{
     background-image: url(./resources/background/1stSection.png); 
-    background-position: center;
+    background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
     height:700px;
 }
+/* background-image: url(../../resources/bg/signup-bg.png);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: bottom;
+height: calc(100vh - 77px);
+box-sizing: content-box; */
 .nav-search-icon{
     width:25px;
-    
 }
 .top-left-part{
     margin-bottom: 40px;
@@ -24,6 +33,9 @@ body{
 .top-section-heading{
     font-size:65px;
     font-weight: 700;
+}
+.top-image-center{
+    text-align:center;
 }
 .top-image{
     width:auto;
@@ -42,25 +54,194 @@ body{
 .see-more-btn{
     text-decoration: none !important;
     background-image:linear-gradient( 45deg,#ffc371, #ff5f6d);
-    padding:10px 20px;
+    padding:10px 50px;
     border-radius: 8px;
     color:white;
     font-weight: 500;
 }
 .see-more-btn:hover{
-    text-decoration: none !important;
-    background-image:linear-gradient( 45deg,#ffc371, #ff5f6d);
-    padding:10px 20px;
-    border-radius: 8px;
+    text-decoration: none;
     color:white;
-    font-weight: 500px;
 }
 
-/* CSS for 1st Section */
-.first-section{
+
+/* CSS for Experties Section */
+.experties-section{
     background-image: url(./resources/background/2ndSection.png); 
-    height: 850px;
-    background-position: center;
+    background-position: center center;
     background-size:cover;
-    float:left;
+    background-repeat: no-repeat;
+    height:580px;
+}
+.experties-heading{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.card-img{
+    width: 70px;
+    margin:10px;
+}
+.card{
+    padding:20px;
+    margin:20px;
+    margin-bottom:50px;
+    box-shadow: 0px 0px 25px lightgray;
+    border-radius: 10px;
+}
+.card-title{
+    font-weight: 700;
+}
+.card-text{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.experties-middle-card{
+    background-image: linear-gradient(145deg, #ff5f6d, #ffc371) !important;
+}
+.experties-card{}
+
+/* work-plan-section background image */
+.work-plan-section{
+    background-image: url(./resources/background/3rdSection.png); 
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:680px;
+}
+.work-plan{
+    height:680px;
+}
+
+/* CSS for Video */
+.video {
+    width: 100%;
+    border: 1px solid tomato;
+    border-radius: 30px;
+    height:350px;
+    
+}
+.wrapper{
+    display:table;
+    position:relative;
+    width:70%;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.playpause {
+    background-image:url(./resources/logo/play.png);
+    background-repeat:no-repeat;
+    width:50%;
+    height:50%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+
+/*CSS for Works Plan Heading*/
+.works-plan-heading{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.center-video{
+    margin: 0 auto;
+
+}
+
+/* css for Clients Feedback Section */
+.client-feedback-section{
+    background-image: url(./resources/background/4thSection.png); 
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:1050px;
+}
+.feedback-intro{
+    padding:20px;
+    margin:20px;
+    margin-bottom:50px;
+    box-shadow: none;
+    border:none;
+    background-color:none;
+    border-radius: 10px;
+}
+.client-img{
+    width: 60px;
+    border-radius: 55%;
+}
+.client-card-title{
+    background: -webkit-linear-gradient(90deg,  #ffc371, #ff5f6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.sign-in-section{
+    margin-top: 100px;
+}
+.mail-input{
+    background: -webkit-linear-gradient(90deg,  #ffc371, #ff5f6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 15px lightgray;
+    margin-right:30px;
+}
+
+.submit-btn{
+    text-decoration: none !important;
+    background-image:linear-gradient( 45deg, #ff5f6d, #ffc371);
+    padding:10px 35px;
+    border-radius: 20px;
+    color:white;
+    font-weight: 700;
+    border:none;
+}
+
+/* Bottom/Footer Section */
+.bottom-section{
+    background-image: linear-gradient( 45deg, #ff5f6d, #ffc371);
+    margin-bottom:0px !important;
+}
+.footer-logo{
+    padding-top: 50px !important;
+}
+
+.contact-and-others{
+    margin:50px 100px;
+    color: white;
+    margin-bottom: 0 !important;
+}
+
+.contact-and-others ul{
+    list-style: none;
+    padding: 0px;
+}
+.contact-and-others ul li{
+    list-style: none;
+}
+.contact-and-others ul li a{
+    color:white;
+    text-decoration: none;
+    line-height: 30px;
+}
+.social-link{
+    width: 40px;
+    margin-top: 25px;
+    margin-right: 30px;
 }
