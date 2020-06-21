@@ -37,8 +37,7 @@ box-sizing: content-box; */
     text-align:center;
 }
 .top-image{
-    width:auto;
-    height:600px;
+    width:80%;
     border-radius: 35px;
 }
 .text-highlight{
@@ -118,6 +117,9 @@ box-sizing: content-box; */
     background-size:cover;
     background-repeat: no-repeat;
 }
+.work-plan{
+    margin-left: 20px;
+}
 
 /* CSS for Video */
 .video {
@@ -191,7 +193,7 @@ box-sizing: content-box; */
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 15px;
-    padding: 10px 50px;
+    padding: 10px 40px;
     border-radius: 20px;
     border: none;
     box-shadow: 0px 3px 5px lightgray;
