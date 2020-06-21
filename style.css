@@ -12,7 +12,6 @@ section{
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
-    height:700px;
 }
 /* background-image: url(../../resources/bg/signup-bg.png);
 background-repeat: no-repeat;
@@ -24,7 +23,7 @@ box-sizing: content-box; */
     width:25px;
 }
 .top-left-part{
-    margin-bottom: 40px;
+    margin: 50px 0px;
 }
 .nav-item{
     padding-left: 20px;
@@ -63,7 +62,9 @@ box-sizing: content-box; */
     text-decoration: none;
     color:white;
 }
-
+.experties-btn{
+    margin-top: 90px;
+}
 
 /* CSS for Experties Section */
 .experties-section{
@@ -71,19 +72,23 @@ box-sizing: content-box; */
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
-    height:580px;
 }
-.experties-heading{
+.content-title{
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 60px;
+    padding-top:100px;
+}
+.col-md-4{
+    margin-bottom:30px;
 }
 .card-img{
     width: 70px;
     margin:10px;
+    border-radius: 50%;
 }
 .card{
-    padding:20px;
+    padding:30px;
     margin:20px;
     margin-bottom:50px;
     box-shadow: 0px 0px 25px lightgray;
@@ -96,11 +101,15 @@ box-sizing: content-box; */
     line-height: 30px;
     font-size: 18px;
 }
-
+.card-footer{
+    background-color: #ffffff;
+    border:none;
+}
 .experties-middle-card{
     background-image: linear-gradient(145deg, #ff5f6d, #ffc371) !important;
+    color:#ffffff !important;
 }
-.experties-card{}
+
 
 /* work-plan-section background image */
 .work-plan-section{
@@ -108,20 +117,16 @@ box-sizing: content-box; */
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
-    height:680px;
-}
-.work-plan{
-    height:680px;
 }
 
 /* CSS for Video */
 .video {
     width: 100%;
-    border: 1px solid tomato;
-    border-radius: 30px;
-    height:350px;
-    
+    border: 1px solid #ffffff;
+    border-radius: 10%;
+    height:350px;  
 }
+
 .wrapper{
     display:table;
     position:relative;
@@ -145,17 +150,15 @@ box-sizing: content-box; */
     background-size:contain;
     background-position: center;
 }
-
+.center-video{
+    margin:auto;
+    padding:auto;
+}
 /*CSS for Works Plan Heading*/
 .works-plan-heading{
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 40px;
-}
-
-.center-video{
-    margin: 0 auto;
-
 }
 
 /* css for Clients Feedback Section */
@@ -164,27 +167,19 @@ box-sizing: content-box; */
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
-    height:1050px;
 }
-.feedback-intro{
-    padding:20px;
-    margin:20px;
-    margin-bottom:50px;
-    box-shadow: none;
-    border:none;
-    background-color:none;
-    border-radius: 10px;
-}
-.client-img{
-    width: 60px;
-    border-radius: 55%;
-}
+
 .client-card-title{
     background: -webkit-linear-gradient(90deg,  #ffc371, #ff5f6d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 25px;
+}
+.feedback-summary{
+    background-color:none;
+    box-shadow:none !important;
+    border:none;
 }
 
 .sign-in-section{
@@ -199,7 +194,7 @@ box-sizing: content-box; */
     padding: 10px 50px;
     border-radius: 20px;
     border: none;
-    box-shadow: 0px 0px 15px lightgray;
+    box-shadow: 0px 3px 5px lightgray;
     margin-right:30px;
 }
 
