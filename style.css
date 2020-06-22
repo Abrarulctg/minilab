@@ -3,52 +3,50 @@ body{
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
+/* Bottom Margin for All Section */
 section{
     margin-bottom:100px;
 }
-/* CSS for Navbar & Top Section */
+/* CSS for Navbar & Top Section Background image */
 .top-section{
-    background-image: url(./resources/background/1stSection.png); 
+    background-image: url(./resources/background/full.png); 
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
 }
-/* background-image: url(../../resources/bg/signup-bg.png);
-background-repeat: no-repeat;
-background-size: 100%;
-background-position: bottom;
-height: calc(100vh - 77px);
-box-sizing: content-box; */
+/* Navbar Search icon */
 .nav-search-icon{
     width:25px;
 }
 .top-left-part{
     margin: 50px 0px;
 }
+
 .nav-item{
     padding-left: 20px;
     font-weight: 700;
 }
-.top-section-heading{
-    font-size:65px;
-    font-weight: 700;
-}
+/* Heading Image Design */
 .top-image-center{
     text-align:center;
 }
 .top-image{
-    width:70%;
+    width:75%;
     border-radius: 35px;
 }
+/* Gray Highlighted text in Top section */
 .text-highlight{
     color: rgb(119, 118, 118)
 }
+/* All Paragraph Design */
 .pera{
     color:rgb(119, 118, 118);
     font-size:20px;
     margin-top:35px;
     margin-bottom:35px;
 }
+
+/* See More Button Design */
 .see-more-btn{
     text-decoration: none !important;
     background-image:linear-gradient( 45deg,#ffc371, #ff5f6d);
@@ -61,17 +59,17 @@ box-sizing: content-box; */
     text-decoration: none;
     color:white;
 }
+/* Experties btn Section */
 .experties-btn{
     margin-top: 90px;
 }
-
-/* CSS for Experties Section */
-.experties-section{
-    background-image: url(./resources/background/2ndSection.png); 
-    background-position: center center;
-    background-size:cover;
-    background-repeat: no-repeat;
+/* Middle card of experties-Section Design */
+.experties-middle-card{
+    background-image: linear-gradient(145deg, #ff5f6d, #ffc371) !important;
+    color:#ffffff !important;
 }
+
+/* All Section Title Design */
 .content-title{
     font-size: 50px;
     font-weight: 700;
@@ -81,11 +79,13 @@ box-sizing: content-box; */
 .col-md-4{
     margin-bottom:30px;
 }
+/* Experties Card Image Design */
 .card-img{
     width: 70px;
     margin:10px;
     border-radius: 50%;
 }
+/* All Cards internal Design */
 .card{
     padding:30px;
     margin:20px;
@@ -104,22 +104,6 @@ box-sizing: content-box; */
     background-color: #ffffff;
     border:none;
 }
-.experties-middle-card{
-    background-image: linear-gradient(145deg, #ff5f6d, #ffc371) !important;
-    color:#ffffff !important;
-}
-
-
-/* work-plan-section background image */
-.work-plan-section{
-    background-image: url(./resources/background/3rdSection.png); 
-    background-position: center center;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
-.work-plan{
-    margin-left: 10px;
-}
 
 /* CSS for Video */
 .video {
@@ -129,10 +113,11 @@ box-sizing: content-box; */
     height:350px;  
 }
 
+/* Video Wrapping */
 .wrapper{
     display:table;
     position:relative;
-    width:70%;
+    width:80%;
     margin: 0;
     top: 50%;
     -ms-transform: translateY(-50%);
@@ -156,7 +141,7 @@ box-sizing: content-box; */
     margin:auto;
     padding:auto;
 }
-/*CSS for Works Plan Heading*/
+/*CSS for Works-Plan Heading*/
 .works-plan-heading{
     font-size: 50px;
     font-weight: 700;
@@ -164,13 +149,14 @@ box-sizing: content-box; */
 }
 
 /* css for Clients Feedback Section */
-.client-feedback-section{
-    background-image: url(./resources/background/4thSection.png); 
-    background-position: center center;
-    background-size:cover;
-    background-repeat: no-repeat;
+.feedback-summary{
+    background-color:none;
+    box-shadow:none !important;
+    border:none;
+    box-shadow:none;
 }
 
+/* Clients Name Design */
 .client-card-title{
     background: -webkit-linear-gradient(90deg,  #ffc371, #ff5f6d);
     -webkit-background-clip: text;
@@ -178,15 +164,14 @@ box-sizing: content-box; */
     font-weight: 700;
     font-size: 25px;
 }
-.feedback-summary{
-    background-color:none;
-    box-shadow:none !important;
-    border:none;
-}
 
+/* Sign in Section Design */
 .sign-in-section{
     margin-top: 100px;
+    height: 500px;
 }
+
+/* Text Input internal Text Design */
 .mail-input{
     background: -webkit-linear-gradient(90deg,  #ffc371, #ff5f6d);
     -webkit-background-clip: text;
@@ -200,7 +185,6 @@ box-sizing: content-box; */
     margin-right:20px;
     width: 50%;
 }
-
 .submit-btn{
     text-decoration: none !important;
     background-image:linear-gradient( 45deg, #ff5f6d, #ffc371);
@@ -226,6 +210,7 @@ box-sizing: content-box; */
     margin-bottom: 0 !important;
 }
 
+/*Make List Style None */
 .contact-and-others ul{
     list-style: none;
     padding: 0px;
@@ -238,6 +223,8 @@ box-sizing: content-box; */
     text-decoration: none;
     line-height: 30px;
 }
+
+/* Bottom Social Icon design */
 .social-link{
     width: 40px;
     margin-top: 25px;
