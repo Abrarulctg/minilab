@@ -193,11 +193,12 @@ box-sizing: content-box; */
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 15px;
-    padding: 10px 35px;
+    padding: 10px 20px;
     border-radius: 20px;
     border: none;
     box-shadow: 0px 3px 5px lightgray;
     margin-right:20px;
+    width: 50%;
 }
 
 .submit-btn{
